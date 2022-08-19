@@ -2,7 +2,9 @@ import pandas as pd
 import json
 import io
 from json2txttree import json2txttree
+
 def join_duplicate_keys(ordered_pairs):
+    # this function is used to solve the problem of duplicate keys in json
     d = {}
     for k, v in ordered_pairs:
         if k in d:
@@ -16,6 +18,7 @@ def join_duplicate_keys(ordered_pairs):
         else:
             d[k] = v
     return d
+
 class Node:
     def __init__(self, text):
         self.text = text
@@ -29,40 +32,52 @@ class Node:
 
 class JSONtree(object):
     def __init__(self, jsonFile):
+        # initialize the root of the json tree
         self.root = Node("root")
+        # read the json file
         self.jsonFile = jsonFile
         with open(self.jsonFile, 'r') as file:
             self.jsonData = file.read().replace('\n', '')
+        # convert the json to python dictionary
         self.jsonData = json.loads(self.jsonData, object_pairs_hook=join_duplicate_keys)
         self.jsonData = {'root': self.jsonData}
+        # build the tree
         self.build()
         self.rows = []
+        # traverse the tree and get the rows
         self.traverse_tree()
-        print(self.rows)
+        # remove the column names "@contextRef" and "#text"
         self.remove_column_name()
+        # convert the rows to dataframe
         self.df = self.to_dataframe()
 
     def build(self):
+        # build the tree recursively
         self.root = self.build_recursive(self.root, self.jsonData)
     
     def build_recursive(self, node: Node, parentDict: dict):
+        # get the text of the node
         key = node.text
         if isinstance(parentDict[key], dict):
+            # if the node is a dictionary, then create a new node for each key in the dictionary
             for text, value in parentDict[key].items():
                 newNode = Node(text)
                 node.addChild(newNode)
                 self.build_recursive(newNode, parentDict[key])
         elif isinstance(parentDict[key], list):
+            # if the node is a list, then create a new node for each item in the list
             for item in parentDict[key]:
                 for text, value in item.items():
                     newNode = Node(text)
                     node.addChild(newNode)
                     self.build_recursive(newNode, item)
         else:
+            # if the node is a string, then create a new node for the string
             node.addChild(Node(parentDict[key]))
         return node
 
     def print(self):
+        # print the tree
         self.print_recursive(self.root, 0)
 
     def print_recursive(self, node: Node, level: int):
@@ -71,12 +86,12 @@ class JSONtree(object):
             self.print_recursive(child, level=level+1)
 
     def traverse_tree(self):
+        # traverse the tree and get the rows
         self.traverse_tree_recursive(self.root, [])
         new_rows = []
         for i in range(0, len(self.rows), 2):
             contextRef_row = self.rows[i]
             text_row = self.rows[i+1]
-
             contextRef_row.append(text_row[-2])
             contextRef_row.append(text_row[-1])
             new_rows.append(contextRef_row)
