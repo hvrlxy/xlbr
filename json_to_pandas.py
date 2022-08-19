@@ -2,7 +2,20 @@ import pandas as pd
 import json
 import io
 from json2txttree import json2txttree
-
+def join_duplicate_keys(ordered_pairs):
+    d = {}
+    for k, v in ordered_pairs:
+        if k in d:
+            if type(d[k]) == list:
+                d[k].append(v)
+            else:
+                newlist = []
+                newlist.append(d[k])
+                newlist.append(v)
+                d[k] = newlist
+        else:
+            d[k] = v
+    return d
 class Node:
     def __init__(self, text):
         self.text = text
@@ -18,10 +31,14 @@ class JSONtree(object):
     def __init__(self, jsonFile):
         self.root = Node("root")
         self.jsonFile = jsonFile
-        self.jsonData = {'root': json.load(io.open(self.jsonFile, 'r', encoding='utf-8-sig'))}
+        with open(self.jsonFile, 'r') as file:
+            self.jsonData = file.read().replace('\n', '')
+        self.jsonData = json.loads(self.jsonData, object_pairs_hook=join_duplicate_keys)
+        self.jsonData = {'root': self.jsonData}
         self.build()
         self.rows = []
         self.traverse_tree()
+        print(self.rows)
         self.remove_column_name()
         self.df = self.to_dataframe()
 
@@ -36,11 +53,11 @@ class JSONtree(object):
                 node.addChild(newNode)
                 self.build_recursive(newNode, parentDict[key])
         elif isinstance(parentDict[key], list):
-            adict = parentDict[key][0]
-            for text, value in adict.items():
-                newNode = Node(text)
-                node.addChild(newNode)
-                self.build_recursive(newNode, adict)
+            for item in parentDict[key]:
+                for text, value in item.items():
+                    newNode = Node(text)
+                    node.addChild(newNode)
+                    self.build_recursive(newNode, item)
         else:
             node.addChild(Node(parentDict[key]))
         return node
@@ -77,7 +94,7 @@ class JSONtree(object):
 
     def remove_column_name(self):
         for row in self.rows:
-            row.remove("contextRef")
+            row.remove("@contextRef")
             row.remove("#text")
             row.remove("root")
 

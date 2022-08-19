@@ -1,0 +1,612 @@
+<ROCRA>
+  <RAN contextRef="m1">Moody's Investors Service</RAN>
+  <FCD contextRef="m1">2022-07-15</FCD>
+  <OD>
+    <OSC contextRef="m1">US Public</OSC>
+    <OBNAME contextRef="m1">Travis County Healthcare District, TX</OBNAME>
+    <OI contextRef="m1">907165001</OI>
+    <OIS contextRef="m1">NRSRO</OIS>
+    <ORD>
+      <IP contextRef="m1">true</IP>
+      <R contextRef="m1">Aa2</R>
+      <RAD contextRef="m1">2021-06-07</RAD>
+      <RAC contextRef="m1">NW</RAC>
+      <RT contextRef="m1">Organization</RT>
+      <RTT contextRef="m1">ISSUER RATING</RTT>
+    </ORD>
+  </OD>
+  <ISD>
+    <SSC contextRef="m1">US Public</SSC>
+    <ISSNAME contextRef="m1">Travis County Healthcare District, TX</ISSNAME>
+    <ISI contextRef="m1">907165001</ISI>
+    <ISIS contextRef="m1">NRSRO</ISIS>
+    <IND>
+      <OBT contextRef="m1">Other</OBT>
+      <INSTNAME contextRef="m1">LT SR GOLT UNDERLYING</INSTNAME>
+      <CUSIP contextRef="m1">89439YAR0</CUSIP>
+      <MD contextRef="m1">2022-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">false</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Other</OBT>
+      <INSTNAME contextRef="m1">LT SR GOLT UNDERLYING</INSTNAME>
+      <CUSIP contextRef="m1">89439YBM0</CUSIP>
+      <MD contextRef="m1">2022-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">false</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Other</OBT>
+      <INSTNAME contextRef="m1">Public Finance Bond</INSTNAME>
+      <INI contextRef="m1">907165022</INI>
+      <INIS contextRef="m1">NRSRO</INIS>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Sale</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Other</OBT>
+      <INSTNAME contextRef="m1">Public Finance Bond</INSTNAME>
+      <INI contextRef="m1">907165028</INI>
+      <INIS contextRef="m1">NRSRO</INIS>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Sale</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YAS8</CUSIP>
+      <MD contextRef="m1">2023-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YAT6</CUSIP>
+      <MD contextRef="m1">2024-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YAU3</CUSIP>
+      <MD contextRef="m1">2025-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YAV1</CUSIP>
+      <MD contextRef="m1">2026-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YAW9</CUSIP>
+      <MD contextRef="m1">2027-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YAX7</CUSIP>
+      <MD contextRef="m1">2028-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YAY5</CUSIP>
+      <MD contextRef="m1">2029-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YAZ2</CUSIP>
+      <MD contextRef="m1">2030-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBA6</CUSIP>
+      <MD contextRef="m1">2031-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBB4</CUSIP>
+      <MD contextRef="m1">2032-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBC2</CUSIP>
+      <MD contextRef="m1">2033-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBD0</CUSIP>
+      <MD contextRef="m1">2034-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBE8</CUSIP>
+      <MD contextRef="m1">2035-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBF5</CUSIP>
+      <MD contextRef="m1">2036-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBG3</CUSIP>
+      <MD contextRef="m1">2037-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBH1</CUSIP>
+      <MD contextRef="m1">2038-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBJ7</CUSIP>
+      <MD contextRef="m1">2039-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBK4</CUSIP>
+      <MD contextRef="m1">2040-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBL2</CUSIP>
+      <MD contextRef="m1">2041-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBN8</CUSIP>
+      <MD contextRef="m1">2023-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBP3</CUSIP>
+      <MD contextRef="m1">2024-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBQ1</CUSIP>
+      <MD contextRef="m1">2025-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBR9</CUSIP>
+      <MD contextRef="m1">2026-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBS7</CUSIP>
+      <MD contextRef="m1">2027-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBT5</CUSIP>
+      <MD contextRef="m1">2028-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBU2</CUSIP>
+      <MD contextRef="m1">2029-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBV0</CUSIP>
+      <MD contextRef="m1">2030-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBW8</CUSIP>
+      <MD contextRef="m1">2031-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBX6</CUSIP>
+      <MD contextRef="m1">2032-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBY4</CUSIP>
+      <MD contextRef="m1">2033-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YBZ1</CUSIP>
+      <MD contextRef="m1">2034-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YCA5</CUSIP>
+      <MD contextRef="m1">2035-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YCB3</CUSIP>
+      <MD contextRef="m1">2036-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YCC1</CUSIP>
+      <MD contextRef="m1">2037-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YCD9</CUSIP>
+      <MD contextRef="m1">2038-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YCE7</CUSIP>
+      <MD contextRef="m1">2039-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YCF4</CUSIP>
+      <MD contextRef="m1">2040-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+    <IND>
+      <OBT contextRef="m1">Instrument</OBT>
+      <INSTNAME contextRef="m1">Unknown</INSTNAME>
+      <CUSIP contextRef="m1">89439YCG2</CUSIP>
+      <MD contextRef="m1">2041-03-01</MD>
+      <INRD>
+        <IP contextRef="m1">true</IP>
+        <R contextRef="m1">Aa2</R>
+        <RAD contextRef="m1">2021-06-07</RAD>
+        <RAC contextRef="m1">NW</RAC>
+        <RT contextRef="m1">Instrument</RT>
+        <RTT contextRef="m1">LT SR GOLT UNDERLYING</RTT>
+      </INRD>
+    </IND>
+  </ISD>
+</ROCRA>

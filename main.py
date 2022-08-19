@@ -4,7 +4,7 @@ import json
 import io
 from json2txttree import json2txttree
 
-jsonFile = 'input/data.json'
+jsonFile = 'input/json/output.json'
 excel_file = 'results/data.xlsx'
 csv_file = 'results/data.csv'
 
